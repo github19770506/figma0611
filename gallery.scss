@@ -1,0 +1,51 @@
+* { margin: 0; padding: 0; }
+ul { list-style: none; }
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#gallery {
+    width: 120rem;
+    height: 67.5rem;
+    display: flex;
+    justify-content: center;
+    width: 90rem;
+    background-color: #fff;
+    div.inner {
+        width: 90rem;
+        height: 48.75rem;
+        flex-shrink: 0;
+        h2.title {
+            font-family: "Noto Sans KR";
+            font-size: 3.125rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.0625rem;
+            text-align: center;
+        }
+        ul.product {
+            margin-top: 5rem;
+            display: flex;
+            gap: 5.19rem;
+            li {
+                width: 18.625rem;
+                height: 24.9375rem;
+                flex-shrink: 0;
+                border-radius: 2.5rem;
+                border: 1px solid #D3D3D3;
+                background: #FFF;
+                padding: 1.8rem 1.6rem 0 1.6rem;
+                a{
+                   img {
+                    width: 15.4375rem;
+                    height: 12.8125rem;
+                    flex-shrink: 0;
+                   } 
+                }
+            }
+        }
+    }
+}
